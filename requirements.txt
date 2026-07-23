@@ -1,6 +1,5 @@
 pandas
 numpy
-pickle
 streamlit
 warnings
 matplotlib
