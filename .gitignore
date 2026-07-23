@@ -1,0 +1,14 @@
+__pycache__
+.IMD
+.ipynb_checkpoints
+.vscode
+Dataset
+Images
+Models_Notebooks
+Notebooks
+Final Models + RMSE + R2 Score.docx
+Presentation.pptx
+
+# For internal use at IMD
+Output_Code.py 
+
