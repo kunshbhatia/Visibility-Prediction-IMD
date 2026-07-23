@@ -9,7 +9,7 @@ timeperiod_name_list = [] # Includes ["T+1","T+2"........]
 def models_loading(): # Loading the models
     for i in range(1,25):
         timeperiod_name_list.append(f"T+{i}")
-        with open(fr"Models\VSBK_t{i}.pkl","rb") as f:
+        with open(fr"Models/VSBK_t{i}.pkl","rb") as f:
             globals()[f"model_t{i}"] = pickle.load(f)
 
 rmse_scores = [369.06 , 489.02 , 567.2 , 621.2 , 656.12 , 680.48 , 697.89 , 712.74 , 726.97 , 736.43 , 740.09 , 740.70 , 739.91 , 746.94 , 748.94 ,
