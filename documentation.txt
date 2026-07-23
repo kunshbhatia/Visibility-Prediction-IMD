@@ -8,6 +8,6 @@
 
 4) timeperiod :- Here we will enter in 3 ways :- (i) A single int number to get the prediction for T+n hour (ii) A tuple like (x,y) to get prediction between T+x and T+y (iii) "all" to get next 24 hours prediction
 
-5) category :- It's either True or False , if True , then fog classification will be shown in the output table and visa vera when False
+5) category :- It's either True or False , if True , then fog classification will be shown in the output table and visa versa when False
 
-6) export :- Same either True Or False , if true then in csv format file would be downloaded , and visa vera when False. 
+6) export :- Same either True Or False , if true then in csv format file would be downloaded , and visa versa when False. 
