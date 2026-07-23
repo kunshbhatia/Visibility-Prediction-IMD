@@ -68,7 +68,8 @@ if st.button("🔍 Predict Visibility"):
 
             #Generating outputs 
 
-            visibility = round(globals()[f"model_t{i}"].predict(inputs)[0], 2)
+            prediction = globals()[f"model_t{i}"].predict(inputs)
+            visibility = round(float(prediction[0]), 2)
             category = fog_classification(visibility)
             color = color_codes(visibility)
             lower_limit = max(round(visibility - rmse_scores[i-1],2),0)
